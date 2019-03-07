@@ -1,0 +1,17 @@
+{
+  "name": "babysitterkata",
+  "version": "1.0.0",
+  "description": "Creating a tracker for a babysitter to calculate pay, based on # on hours, size of family, bedtimes and pets.",
+  "main": "Babysitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ariana Baseman",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "karma": "^4.0.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1"
+  }
+}
