@@ -4,7 +4,8 @@
   "description": "Creating a tracker for a babysitter to calculate pay, based on # on hours, size of family, bedtimes and pets.",
   "main": "Babysitter.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "testRegex": ".*-test\\.js$",
+    "testEnvironment": "node"
   },
   "author": "Ariana Baseman",
   "license": "ISC",
