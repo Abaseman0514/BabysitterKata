@@ -1,17 +1,14 @@
 {
-    "version": "0.1.0",
+    "version": "2.0.0",
     "command": "gulp",
-    "isShellCommand": true,
     "tasks": [
         {
-            "taskName": "server",
-            "isBuildCommand": true,
-            "showOutput": "always"
+            "label": "server",
+            "command": "string",
         },
         {
-            "taskName": "karma",
-            "isTestCommand": true,
-            "showOutput": "always"
+            "label": "karma",
+            "command": "string",
         }
     ]
 }
