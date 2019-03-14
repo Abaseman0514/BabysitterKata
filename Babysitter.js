@@ -1,6 +1,8 @@
-function babySitterCosts(A) {
+'use strict';
+
+function babySitterCosts() {
  let result = "";
- if(A === 15) {
+ if(A == 15) {
    result = "15";
  }
  // if(num % 5 === 0 || num.toString().includes(5)) {
@@ -14,4 +16,4 @@ function babySitterCosts(A) {
 
 }
 
-module.exports = babySitter;
+module.exports = babySitterCosts;

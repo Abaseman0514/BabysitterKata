@@ -4,7 +4,8 @@
   "description": "Babysitter costs test and code in Javascript and Jasmine",
   "main": "babySitter-test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "testRegex": ".*-test\\.js$",
+    "testEnvironment": "node"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
