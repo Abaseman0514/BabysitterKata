@@ -1,18 +1,30 @@
 {
   "name": "babysitterkata",
   "version": "1.0.0",
-  "description": "Creating a tracker for a babysitter to calculate pay, based on # on hours, size of family, bedtimes and pets.",
-  "main": "Babysitter.js",
+  "description": "Babysitter costs test and code in Javascript and Jasmine",
+  "main": "babySitter-test.js",
   "scripts": {
-     "testRegex": ".*-test\\.js$",
-    "testEnvironment": "node"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-html-detailed-reporter": "^1.1.8",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abaseman0514/BabysitterKata.git"
   },
   "author": "Ariana Baseman",
   "license": "ISC",
-  "devDependencies": {
-    "jasmine": "^3.3.1",
-    "karma": "^4.0.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^2.0.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Abaseman0514/BabysitterKata/issues"
+  },
+  "homepage": "https://github.com/Abaseman0514/BabysitterKata#readme"
 }
