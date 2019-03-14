@@ -4,13 +4,13 @@
   "description": "Babysitter costs test and code in Javascript and Jasmine",
   "main": "babySitter-test.js",
   "scripts": {
-     "testRegex": ".*-test\\.js$",
-    "testEnvironment": "node"
+    "test": "node lib/jasmine-node/cli.js spec"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-shell": "^0.5.1",
     "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.16.2",
     "karma": "^0.13.15",
     "karma-chrome-launcher": "^2.2.0",
     "karma-html-detailed-reporter": "^1.1.8",
