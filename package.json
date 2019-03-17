@@ -2,20 +2,21 @@
   "name": "babysitterkata",
   "version": "1.0.0",
   "description": "Babysitter costs test and code in Javascript and Jasmine",
-  "main": "babySitter-test.js",
+  "main": "",
   "scripts": {
-    "test": "node lib/jasmine-node/cli.js spec"
+    "test": "gulp test"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.0",
+    "gulp-jasmine": "^4.0.0",
     "gulp-shell": "^0.5.1",
     "jasmine-core": "^2.4.1",
-    "jasmine-node": "^1.16.2",
-    "karma": "^0.13.15",
+    "jasmine-node": "^2.0.1",
+    "karma": "^4.0.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-html-detailed-reporter": "^1.1.8",
     "karma-jasmine": "^0.3.6",
-    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-phantomjs-launcher": "^1.0.4",
     "phantomjs": "^1.9.19"
   },
   "repository": {
